@@ -4,7 +4,7 @@
 /**
  *main - Entry point
  *
- * Description: Determines and displays whether number is positive, negative or zero
+ * Description: Displays number as positive, negative or zero
  *
  *Return: Always 0 (Success/correct)
  */
