@@ -15,7 +15,8 @@ int main(void)
 
 		if (chap != '9')
 		{
-			putchar(',');																				putchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 
