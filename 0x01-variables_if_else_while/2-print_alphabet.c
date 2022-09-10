@@ -1,4 +1,4 @@
-v#include <stdio.h>
+#include <stdio.h>
 
 /**
 *main - Display LowerCase Alphabets on standard output
