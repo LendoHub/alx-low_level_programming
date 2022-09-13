@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *print_sign - prints '+' if number is greater than 0, 
- *'-' if number is negative and print 0 otherwise
+ *print_sign - prints if number is +ve or -ve
  *@n: the int to print
  *
  * Return: Always 0.
