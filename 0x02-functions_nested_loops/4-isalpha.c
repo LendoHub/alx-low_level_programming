@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * is_alpha - checks for alphabetic character
