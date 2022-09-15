@@ -15,10 +15,12 @@ printf("Infinite loop incoming :(\n");
 i = 0;
 
 /*
+*Infinite loop - No increment of control variable
 *while (i < 10)
 *{
 *putchar(i);
-*}
+
+}
 */
 
 printf("Infinite loop avoided! \\o/\n");
