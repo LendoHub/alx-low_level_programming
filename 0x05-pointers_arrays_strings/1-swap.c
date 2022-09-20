@@ -9,8 +9,6 @@
 
 void swap_int(int *a, int *b)
 {
-	int temp = *a; //Using a temporary variable to hold on value
-
-	*a = *b;
+	int temp = *a;	*a = *b;
 	*b = temp;
 }
