@@ -17,7 +17,6 @@ int _atoi(char *s)
 		if (s[i] == '-')
 		x *= -1;
 		i++;
-	
 	}
 
 	j = i;
