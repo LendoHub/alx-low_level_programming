@@ -2,6 +2,8 @@
 #define MAIN_H
 
 /**
+ *File: main.h
+ *Auth: Ngadi Lennon Paul
  *Desc: File containing all prototypes for this taks
  *used in the 0x07-pointers_arrays_strings directory.
  */
