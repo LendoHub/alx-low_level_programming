@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
 *_strstr - searches a string for a substring
 *
@@ -7,7 +9,6 @@
 *Return: pointer to byte at start of substring, or
 *NULL if substring not found
 */
-
 char *_strstr(char *haystack, char *needle)
 {
 	char *hayptr, *ndlptr;
