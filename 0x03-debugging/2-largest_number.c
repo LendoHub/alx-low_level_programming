@@ -22,6 +22,5 @@ else if (b >= a && b >= c)
 else
 {
 	largest = c;
-}
 return (largest);
 }
