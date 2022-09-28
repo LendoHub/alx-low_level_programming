@@ -3,15 +3,16 @@
  * _print_rev_recursion - Prints string in reverse
  * @s: character pointer to reverse
  *
- * Return: 0 Always
+ * Return: void
  */
 
 void _print_rev_recursion(char *s)
 {
-	int len = strlen(s) - 1;
-
-	for (int i = len; i >= 0; i--)
+	if (*s != '\0')
 	{
-		printf("%c", s[len--]);
+		_print_rev_recursion(s + 1);
+
+		_putchar(*s);
+
 	}
 }
