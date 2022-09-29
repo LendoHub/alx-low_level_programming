@@ -9,10 +9,10 @@
 
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-		return (-1);
+	if (n == 1 || n == 0)
+		return (n);
 
-	return (real_root(n, 0));
+	return (real_root(0, n));
 }
 
 /**
@@ -24,9 +24,9 @@ int _sqrt_recursion(int n)
 
 int real_root(int n, int i)
 {
-	if (i * i > 10)
+	if (n > i / 2)
 		return (-1);
-	if (i * i == n)
-		return (1);
-	return (real_root(n, i + 1));
+	if (n * n == i)
+		return (n);
+	return (real_root(n + 1, i));
 }
