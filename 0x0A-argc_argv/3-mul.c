@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
 *main - Prints the multiplication of two numbers, followed by a new line.
@@ -18,7 +19,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 	prod = num1 * num2;
