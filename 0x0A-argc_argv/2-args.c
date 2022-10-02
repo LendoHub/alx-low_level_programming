@@ -4,7 +4,7 @@
 *main - Prints all arguments it receives.
 *@argc: The number of arguments supplied to the program.
 *@argv: An array of pointers to the arguments.
-*Author: Alagwudavid - Lagos Intranet.
+*
 *Return: Always 0.
 */
 
