@@ -10,4 +10,4 @@
 	float age;
 	char *owner;
 };
-#endif /* DOG */	
+#endif /* DOG */
