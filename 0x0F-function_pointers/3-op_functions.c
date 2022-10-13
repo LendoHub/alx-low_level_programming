@@ -1,77 +1,82 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "3-calc.h"
 
 /**
-*op_add - sum two integers
-*@num1:number 1
-*@num2:number 2
+*op_add - the sum of two integers
+*@a: first number
+*@b: second number
 *
-*Return: an integer
+*Return: the sum of two integers
 */
 
-int op_add(int num1, int num2)
+int op_add(int a, int b)
 {
-	return (num1 + num2);
+	return (a + b);
 }
 
 /**
-*p_sub - difference between integers
-*@num1:number 1
-*@num2:number 2
+*op_sub - difference of two integers
+*@a: first number
+*@b: second number
 *
-*Return: an integer
+*Return: the difference of two integers
 */
 
-int op_sub(int num1, int num2)
+int op_sub(int a, int b)
 {
-	return (num1 - num2);
+	return (a - b);
 }
 
 /**
-*op_mul - multiplication between integers
-*@num1:number 1
-*@num2:number 2
+*op_mul - product of two integers
+*@a: first number
+*@b: second number
 *
-*Return: an integer
+*Return: the product of two integers
 */
 
-int op_mul(int num1, int num2)
+int op_mul(int a, int b)
 {
-	return (num1 * num2);
+	return (a * b);
 }
 
 /**
-*op_div - division  between integers
-*@num1:number 1
-*@num2:number 2
+*op_div - division of two integers
+*@a: first number
+*@b: second number
 *
-*Return: an integer
+*Return: the division of two integers
 */
 
-int op_div(int num1, int num2)
+int op_div(int a, int b)
 {
-	if (num2 == 0)
+	if (b == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
-	return (num1 / num2);
+	else
+	{
+		return (a / b);
+	}
 }
 
 /**
-*op_mod - the remainder between integers
-*@num1:number 1
-*@num2:number 2
+*op_mod - remainder of the division of two integers
+*@a: first number
+*@b: second number
 *
-*Return: an integer
+*Return: the remainder of the division of two integers
 */
 
-int op_mod(int num1, int num2)
+int op_mod(int a, int b)
 {
-	if (num2 == 0)
+	if (b == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
-	return (num1 % num2);
+	else
+	{
+		return (a % b);
+	}
 }
