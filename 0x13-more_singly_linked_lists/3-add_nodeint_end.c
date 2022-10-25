@@ -7,6 +7,7 @@
 *
 *Return: address of the newly added node
 */
+
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_node;
@@ -28,5 +29,5 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	}
 	else
 		*head = new_node;
-		return (new_node);
+	return (new_node);
 }
